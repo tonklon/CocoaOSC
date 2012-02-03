@@ -28,14 +28,14 @@
 		0B4C470A1460ED2E007B5E06 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0B4C46A71460EA4B007B5E06 /* Credits.rtf */; };
 		0B4C470B1460ED39007B5E06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B4C46A91460EA4B007B5E06 /* InfoPlist.strings */; };
 		0B4C470C1460F49A007B5E06 /* CocoaOSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4C46841460E8B9007B5E06 /* CocoaOSC.framework */; };
-		0B4C470D1460F4B8007B5E06 /* CocoaOSC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068D51460E46500BD27ED /* CocoaOSC.h */; };
+		0B4C470D1460F4B8007B5E06 /* CocoaOSC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068D51460E46500BD27ED /* CocoaOSC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B4C470F1460F4B8007B5E06 /* NS+OSCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5068D71460E46500BD27ED /* NS+OSCAdditions.m */; };
-		0B4C47101460F4B8007B5E06 /* OSCConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068D81460E46500BD27ED /* OSCConnection.h */; };
+		0B4C47101460F4B8007B5E06 /* OSCConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068D81460E46500BD27ED /* OSCConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B4C47111460F4B8007B5E06 /* OSCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5068D91460E46500BD27ED /* OSCConnection.m */; };
-		0B4C47121460F4B8007B5E06 /* OSCConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068DA1460E46500BD27ED /* OSCConnectionDelegate.h */; };
-		0B4C47131460F4B8007B5E06 /* OSCDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068DB1460E46500BD27ED /* OSCDispatcher.h */; };
+		0B4C47121460F4B8007B5E06 /* OSCConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068DA1460E46500BD27ED /* OSCConnectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B4C47131460F4B8007B5E06 /* OSCDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068DB1460E46500BD27ED /* OSCDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B4C47141460F4B8007B5E06 /* OSCDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5068DC1460E46500BD27ED /* OSCDispatcher.m */; };
-		0B4C47151460F4B8007B5E06 /* OSCPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068DD1460E46500BD27ED /* OSCPacket.h */; };
+		0B4C47151460F4B8007B5E06 /* OSCPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068DD1460E46500BD27ED /* OSCPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B4C47161460F4B8007B5E06 /* OSCPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5068DE1460E46500BD27ED /* OSCPacket.m */; };
 		0B4C47171460F55E007B5E06 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068EC1460E4BC00BD27ED /* AsyncSocket.h */; };
 		0B4C47181460F55E007B5E06 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5068ED1460E4BC00BD27ED /* AsyncSocket.m */; };
@@ -48,15 +48,15 @@
 		0B4C47FB146104F8007B5E06 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4C47FA146104F8007B5E06 /* libicucore.dylib */; };
 		0B4C47FD146105B6007B5E06 /* CocoaOSC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0B4C46841460E8B9007B5E06 /* CocoaOSC.framework */; };
 		0B5068C91460E41500BD27ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5068C81460E41500BD27ED /* Foundation.framework */; };
-		0B5068DF1460E46500BD27ED /* CocoaOSC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068D51460E46500BD27ED /* CocoaOSC.h */; };
-		0B5068E01460E46500BD27ED /* NS+OSCAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068D61460E46500BD27ED /* NS+OSCAdditions.h */; };
+		0B5068DF1460E46500BD27ED /* CocoaOSC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068D51460E46500BD27ED /* CocoaOSC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5068E01460E46500BD27ED /* NS+OSCAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068D61460E46500BD27ED /* NS+OSCAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B5068E11460E46500BD27ED /* NS+OSCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5068D71460E46500BD27ED /* NS+OSCAdditions.m */; };
-		0B5068E21460E46500BD27ED /* OSCConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068D81460E46500BD27ED /* OSCConnection.h */; };
+		0B5068E21460E46500BD27ED /* OSCConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068D81460E46500BD27ED /* OSCConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B5068E31460E46500BD27ED /* OSCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5068D91460E46500BD27ED /* OSCConnection.m */; };
-		0B5068E41460E46500BD27ED /* OSCConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068DA1460E46500BD27ED /* OSCConnectionDelegate.h */; };
-		0B5068E51460E46500BD27ED /* OSCDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068DB1460E46500BD27ED /* OSCDispatcher.h */; };
+		0B5068E41460E46500BD27ED /* OSCConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068DA1460E46500BD27ED /* OSCConnectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5068E51460E46500BD27ED /* OSCDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068DB1460E46500BD27ED /* OSCDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B5068E61460E46500BD27ED /* OSCDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5068DC1460E46500BD27ED /* OSCDispatcher.m */; };
-		0B5068E71460E46500BD27ED /* OSCPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068DD1460E46500BD27ED /* OSCPacket.h */; };
+		0B5068E71460E46500BD27ED /* OSCPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068DD1460E46500BD27ED /* OSCPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B5068E81460E46500BD27ED /* OSCPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5068DE1460E46500BD27ED /* OSCPacket.m */; };
 		0B5069271460E4BC00BD27ED /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5068EC1460E4BC00BD27ED /* AsyncSocket.h */; };
 		0B5069281460E4BC00BD27ED /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5068ED1460E4BC00BD27ED /* AsyncSocket.m */; };
@@ -806,11 +806,13 @@
 		0B5068D31460E41500BD27ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/CocoaOSC.dst;
+				DSTROOT = /tmp/CocoaOsc.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaOSC/CocoaOSC-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/private";
 				PRODUCT_NAME = CocoaOSC;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -822,11 +824,13 @@
 					armv6,
 					armv7,
 				);
-				DSTROOT = /tmp/CocoaOSC.dst;
+				DSTROOT = /tmp/CocoaOsc.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaOSC/CocoaOSC-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/private";
 				PRODUCT_NAME = CocoaOSC;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
